@@ -3,7 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
+    
+    <!-- Core SEO Meta Tags -->
+    <title>PT DSAB | DSAB PRIME - Jasa Konstruksi Sipil Terintegrasi &amp; Infrastruktur</title>
+    <meta name="description" content="PT DSAB (DSAB Prime) adalah mitra strategis konstruksi sipil nasional. Kami menghadirkan solusi infrastruktur komprehensif, teknik presisi, dan bangunan hijau berkelanjutan di seluruh Indonesia." />
+    <meta name="keywords" content="PT DSAB, DSAB, DSAB Prime, konstruksi sipil, jasa konstruksi, jembatan, jalan raya, gedung komersial, restorasi gedung, green building, kalkulator capex konstruksi, Mampang Jakarta Selatan, LPJK" />
+    <meta name="author" content="PT DSAB" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://tti.my.id" />
+
+    <!-- Favicon & Asset References for Vite Compiling -->
+    <link id="favicon" rel="icon" type="image/jpeg" href="/src/assets/images/dsab_logo_emblem_1781500938548.jpg" />
+    <link id="logo-ref" rel="image_src" href="/src/assets/images/dsab_logo_emblem_1781500938548.jpg" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tti.my.id" />
+    <meta property="og:title" content="PT DSAB | DSAB PRIME - Jasa Konstruksi Sipil Terintegrasi &amp; Infrastruktur" />
+    <meta property="og:description" content="PT DSAB (DSAB Prime) menghadirkan solusi konstruksi sipil terintegrasi, teknik presisi tinggi, dan efisiensi anggaran berkelanjutan di seluruh penjuru Indonesia." />
+    <meta property="og:image" content="/src/assets/images/dsab_logo_emblem_1781500938548.jpg" />
+    <meta property="og:site_name" content="PT DSAB" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PT DSAB | DSAB PRIME - Jasa Konstruksi Sipil Terintegrasi &amp; Infrastruktur" />
+    <meta name="twitter:description" content="PT DSAB (DSAB Prime) menghadirkan inovasi konstruksi sipil modular, ramah lingkungan, dan andal di Indonesia." />
+    <meta name="twitter:image" content="/src/assets/images/dsab_logo_emblem_1781500938548.jpg" />
+
+    <!-- Web Application Manifest (Optional but great for SEO / PWA) -->
+    <meta name="theme-color" content="#070314" />
+
+    <script id="seo-dynamic-ref">
+      // Automatically upgrade relative URLs to absolute URLs at runtime for flawless Open Graph crawler crawling
+      document.addEventListener('DOMContentLoaded', () => {
+        try {
+          const origin = window.location.origin;
+          const imgRef = document.getElementById('logo-ref');
+          if (imgRef && imgRef.href) {
+            const absoluteUrl = imgRef.href;
+            
+            // Set Open Graph
+            const ogImg = document.querySelector('meta[property="og:image"]');
+            if (ogImg) ogImg.setAttribute('content', absoluteUrl);
+            
+            // Set Twitter
+            const twitterImg = document.querySelector('meta[name="twitter:image"]');
+            if (twitterImg) twitterImg.setAttribute('content', absoluteUrl);
+            
+            // Set canonical URL dynamically
+            const ogUrl = document.querySelector('meta[property="og:url"]');
+            if (ogUrl) ogUrl.setAttribute('content', window.location.href);
+          }
+        } catch (e) {
+          console.error('[SEO Setup] Error updating social sharing links:', e);
+        }
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
