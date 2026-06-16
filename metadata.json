@@ -1,0 +1,6 @@
+{
+  "name": "DSAB Prime",
+  "description": "PT DSAB Prime - Mitra Jasa Konstruksi Sipil Terintegrasi, Infrastruktur, Bangunan & Renovasi di Seluruh Indonesia. Engineering Growth, Building Legacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
