@@ -12,6 +12,11 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
+// Brand & Layout Image Assets
+import dsabLogoEmblem from './assets/images/dsab_logo_emblem_1781500938548.jpg';
+import dsabLogoWide from './assets/images/dsab_logo_wide_1781500955328.jpg';
+import dsabHeroBuilding from './assets/images/dsab_hero_building_1781499891337.jpg';
+
 export default function App() {
   // Theme & Language state
   const [lang, setLang] = useState<Language>('id');
@@ -155,7 +160,7 @@ export default function App() {
             {/* Brand Logo & Slogan */}
             <a href="#" className="flex items-center gap-3 select-none text-left">
               <img 
-                src="/assets/images/dsab_logo_emblem_1781500938548.jpg" 
+                src={dsabLogoEmblem} 
                 alt="DSAB Prime Emblem" 
                 className="h-10 w-10 md:h-11 md:w-11 rounded-lg object-contain border border-violet-500/10 hover:opacity-95 transition-opacity"
               />
@@ -380,7 +385,7 @@ export default function App() {
                 {/* Simulated interface border */}
                 <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-slate-900">
                   <img
-                    src="/assets/images/dsab_hero_building_1781499891337.jpg"
+                    src={dsabHeroBuilding}
                     alt="DSAB Prime Skyscraper Jakarta"
                     className="w-full h-full object-cover select-none"
                     referrerPolicy="no-referrer"
@@ -1129,7 +1134,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <div className="flex justify-center items-center">
             <img 
-              src="/assets/images/dsab_logo_wide_1781500955328.jpg" 
+              src={dsabLogoWide} 
               alt="DSAB Prime Corporate Wordmark" 
               className="h-12 w-auto rounded-lg object-contain opacity-80 hover:opacity-100 transition-opacity"
             />

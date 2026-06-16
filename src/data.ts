@@ -1,5 +1,12 @@
 import { Project, Service, FAQItem, ProcessStep, Testimony, ClientLogo } from './types';
 
+import projectBridgeImage from './assets/images/dsab_project_bridge_1781499908630.jpg';
+import heroBuildingImage from './assets/images/dsab_hero_building_1781499891337.jpg';
+import projectBuildingImage from './assets/images/dsab_project_building_1781499923591.jpg';
+import projectGreenBuildingImage from './assets/images/dsab_project_green_building.jpg';
+import avatarUser1 from './assets/images/avatar_user_1.jpg';
+import avatarUser2 from './assets/images/avatar_user_2.jpg';
+
 export const TRANSLATIONS = {
   id: {
     navBrand: 'DSAB PRIME',
@@ -281,7 +288,7 @@ export const PROJECTS: Project[] = [
     },
     year: '2025',
     budgetEst: 'Rp 345 Miliar',
-    image: '/assets/images/dsab_project_bridge_1781499908630.jpg',
+    image: projectBridgeImage,
     description: {
       id: 'Konstruksi jembatan flyover beton segmental pratekan sepanjang 2.4 km untuk mereduksi kemacetan di kawasan industri Surabaya. Menggunakan sensor defleksi real-time untuk pemantauan kesehatan struktural.',
       en: 'Construction of a 2.4 km prestressed segmental concrete flyover to alleviate congestion in Surabaya industrial zones. Integrates real-time structural health deflection sensors.'
@@ -307,7 +314,7 @@ export const PROJECTS: Project[] = [
     },
     year: '2026',
     budgetEst: 'Rp 612 Miliar',
-    image: '/assets/images/dsab_hero_building_1781499891337.jpg',
+    image: heroBuildingImage,
     description: {
       id: 'Pembangunan gedung perkantoran tinggi 28 lantai dengan kaca fotovoltaik penyerap panas matahari dan fasad baja ringan komposit. Mencapai penghematan energi hingga 38% dibanding gedung konvensional.',
       en: 'Construction of a 28-story corporate tower featuring photovoltaic solar-glazing architectural panels and structural composite light-steel. Reaches 38% energy savings relative to baseline commercial codes.'
@@ -333,7 +340,7 @@ export const PROJECTS: Project[] = [
     },
     year: '2026',
     budgetEst: 'Rp 189 Miliar',
-    image: '/assets/images/dsab_project_building_1781499923591.jpg',
+    image: projectBuildingImage,
     description: {
       id: 'Kompleks R&D ramah lingkungan dengan konsep low-carbon footprint di IKN. Menggunakan struktur kayu rekayasa silang-lapis (CLT) yang kuat dan semen geopolimer non-klinker ramah lingkungan.',
       en: 'Low-carbon footprint eco-friendly R&D complex in IKN. Incorporates highly durable cross-laminated timber (CLT) framing and raw climate-conscious geopolimer ash concrete matrices.'
@@ -358,7 +365,7 @@ export const PROJECTS: Project[] = [
     },
     year: '2024',
     budgetEst: 'Rp 74 Miliar',
-    image: '/assets/images/dsab_project_green_building.jpg',
+    image: projectGreenBuildingImage,
     description: {
       id: 'Pekerjaan renovasi struktural bersejarah untuk melestarikan cagar budaya kota tua dengan penguatan fondasi (underpinning) mikro serta instalasi sistem pencegah kebakaran seismik canggih.',
       en: 'Historic structural restoration for kota tua heritage landmark, integrating robust underpinning micropiles and modern seismically stable fire prevention suites.'
@@ -600,7 +607,7 @@ export const TESTIMONIALS: Testimony[] = [
       id: 'Komitmen DSAB Prime terhadap efisiensi waktu sangat luar biasa. Gedung perkantoran kami di SCBD dapat diserahterimakan 15 hari lebih cepat dari jadwal kontrak, dengan presisi pengecoran beton yang memenuhi seluruh uji laboratorium independen.',
       en: 'DSAB Prime’s adherence to schedules is unmatched. Our business tower in SCBD was completed and delivered 15 days ahead of schedule, showcasing concrete core checks that perfectly passed independent laboratory benchmarks.'
     },
-    avatarUrl: '/assets/images/avatar_user_1.jpg'
+    avatarUrl: avatarUser1
   },
   {
     id: 'test-2',
@@ -611,7 +618,7 @@ export const TESTIMONIALS: Testimony[] = [
       id: 'Konstruksi segmental pratekan pada proyek jalan lingkar yang digarap PT DSAB dieksekusi dengan tata kelola lalu lintas yang pintar. Gangguan publik sangat minim, dan laporan mutu harian disajikan secara transparan melalui sistem telemetri digital.',
       en: 'Prestressed segmental placement on the circular highway was managed under clever transit routes. Public impact was exceptionally low, and daily structural charts were shared transparently with our department.'
     },
-    avatarUrl: '/assets/images/avatar_user_2.jpg'
+    avatarUrl: avatarUser2
   }
 ];
 
