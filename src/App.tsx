@@ -156,14 +156,14 @@ export default function App() {
             <a href="#" className="flex items-center gap-3 select-none text-left">
               <img 
                 src="/src/assets/images/dsab_logo_emblem_1781500938548.jpg" 
-                alt="DSAB Prime Logo" 
-                className="h-10 w-auto rounded-lg object-contain border border-violet-500/10"
+                alt="DSAB Prime Emblem" 
+                className="h-10 w-10 md:h-11 md:w-11 rounded-lg object-contain border border-violet-500/10 hover:opacity-95 transition-opacity"
               />
               <div className="flex flex-col">
-                <span className="text-lg font-display font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400 leading-none">
+                <span className="text-lg md:text-xl font-display font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400">
                   {t.navBrand}
                 </span>
-                <span className="text-[9px] font-mono font-bold tracking-widest text-slate-400 mt-0.5 uppercase hidden sm:block">
+                <span className="text-[9px] font-mono font-bold tracking-widest text-slate-400 -mt-0.5 uppercase hidden sm:block">
                   {t.navTagline}
                 </span>
               </div>

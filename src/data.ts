@@ -358,7 +358,7 @@ export const PROJECTS: Project[] = [
     },
     year: '2024',
     budgetEst: 'Rp 74 Miliar',
-    image: 'https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80',
+    image: '/src/assets/images/dsab_project_green_building.jpg',
     description: {
       id: 'Pekerjaan renovasi struktural bersejarah untuk melestarikan cagar budaya kota tua dengan penguatan fondasi (underpinning) mikro serta instalasi sistem pencegah kebakaran seismik canggih.',
       en: 'Historic structural restoration for kota tua heritage landmark, integrating robust underpinning micropiles and modern seismically stable fire prevention suites.'
@@ -600,7 +600,7 @@ export const TESTIMONIALS: Testimony[] = [
       id: 'Komitmen DSAB Prime terhadap efisiensi waktu sangat luar biasa. Gedung perkantoran kami di SCBD dapat diserahterimakan 15 hari lebih cepat dari jadwal kontrak, dengan presisi pengecoran beton yang memenuhi seluruh uji laboratorium independen.',
       en: 'DSAB Prime’s adherence to schedules is unmatched. Our business tower in SCBD was completed and delivered 15 days ahead of schedule, showcasing concrete core checks that perfectly passed independent laboratory benchmarks.'
     },
-    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80'
+    avatarUrl: '/src/assets/images/avatar_user_1.jpg'
   },
   {
     id: 'test-2',
@@ -611,7 +611,7 @@ export const TESTIMONIALS: Testimony[] = [
       id: 'Konstruksi segmental pratekan pada proyek jalan lingkar yang digarap PT DSAB dieksekusi dengan tata kelola lalu lintas yang pintar. Gangguan publik sangat minim, dan laporan mutu harian disajikan secara transparan melalui sistem telemetri digital.',
       en: 'Prestressed segmental placement on the circular highway was managed under clever transit routes. Public impact was exceptionally low, and daily structural charts were shared transparently with our department.'
     },
-    avatarUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80'
+    avatarUrl: '/src/assets/images/avatar_user_2.jpg'
   }
 ];
 
