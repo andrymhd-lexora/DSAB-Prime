@@ -289,6 +289,7 @@ export const PROJECTS: Project[] = [
     year: '2025',
     budgetEst: 'Rp 345 Miliar',
     image: projectBridgeImage,
+    fallbackImage: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80',
     description: {
       id: 'Konstruksi jembatan flyover beton segmental pratekan sepanjang 2.4 km untuk mereduksi kemacetan di kawasan industri Surabaya. Menggunakan sensor defleksi real-time untuk pemantauan kesehatan struktural.',
       en: 'Construction of a 2.4 km prestressed segmental concrete flyover to alleviate congestion in Surabaya industrial zones. Integrates real-time structural health deflection sensors.'
@@ -315,6 +316,7 @@ export const PROJECTS: Project[] = [
     year: '2026',
     budgetEst: 'Rp 612 Miliar',
     image: heroBuildingImage,
+    fallbackImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
     description: {
       id: 'Pembangunan gedung perkantoran tinggi 28 lantai dengan kaca fotovoltaik penyerap panas matahari dan fasad baja ringan komposit. Mencapai penghematan energi hingga 38% dibanding gedung konvensional.',
       en: 'Construction of a 28-story corporate tower featuring photovoltaic solar-glazing architectural panels and structural composite light-steel. Reaches 38% energy savings relative to baseline commercial codes.'
@@ -341,6 +343,7 @@ export const PROJECTS: Project[] = [
     year: '2026',
     budgetEst: 'Rp 189 Miliar',
     image: projectBuildingImage,
+    fallbackImage: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
     description: {
       id: 'Kompleks R&D ramah lingkungan dengan konsep low-carbon footprint di IKN. Menggunakan struktur kayu rekayasa silang-lapis (CLT) yang kuat dan semen geopolimer non-klinker ramah lingkungan.',
       en: 'Low-carbon footprint eco-friendly R&D complex in IKN. Incorporates highly durable cross-laminated timber (CLT) framing and raw climate-conscious geopolimer ash concrete matrices.'
@@ -366,6 +369,7 @@ export const PROJECTS: Project[] = [
     year: '2024',
     budgetEst: 'Rp 74 Miliar',
     image: projectGreenBuildingImage,
+    fallbackImage: 'https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80',
     description: {
       id: 'Pekerjaan renovasi struktural bersejarah untuk melestarikan cagar budaya kota tua dengan penguatan fondasi (underpinning) mikro serta instalasi sistem pencegah kebakaran seismik canggih.',
       en: 'Historic structural restoration for kota tua heritage landmark, integrating robust underpinning micropiles and modern seismically stable fire prevention suites.'

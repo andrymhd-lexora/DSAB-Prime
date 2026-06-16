@@ -10,6 +10,7 @@ export interface Project {
   year: string;
   budgetEst: string;
   image: string;
+  fallbackImage?: string;
   description: Record<Language, string>;
   specs: {
     label: Record<Language, string>;
